@@ -5,6 +5,7 @@ resource "azurerm_storage_account" "storage_accounts" {
   location                 = var.location
   account_tier             = "Standard"
   account_replication_type = "LRS"
+  
 }
 
 resource "azurerm_service_plan" "service_plans" {

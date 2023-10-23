@@ -5,3 +5,5 @@ output "function_app_ids" {
 output "function_app_names" {
   value = azurerm_windows_function_app.function_apps[*].name
 }
+
+#could return map
